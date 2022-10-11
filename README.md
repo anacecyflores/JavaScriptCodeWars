@@ -2,4 +2,4 @@
 
 CodeWars JavaScript Challenges
 
-[Following along video:](https://www.youtube.com/watch?v=sqRk0Ly66Ps)
+[Following along YouTube Video](https://www.youtube.com/watch?v=sqRk0Ly66Ps)
