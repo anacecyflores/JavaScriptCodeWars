@@ -35,3 +35,8 @@ function getCount(str) {
 
   return vowelsCount;
 }
+
+// CLEVER SOLUTION
+function getCount(str) {
+  return (str.match(/[aeiou]/gi) || []).length;
+}
