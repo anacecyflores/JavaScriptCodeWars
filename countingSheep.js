@@ -2,18 +2,49 @@
 
 // For example,
 
-// [true,  true,  true,  false,
-//   true,  true,  true,  true ,
-//   true,  false, true,  false,
-//   true,  false, false, true ,
-//   true,  true,  true,  true ,
-//   false, false, true,  true]
+let sheep = [
+  true,
+  true,
+  true,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false,
+  true,
+  false,
+  true,
+  false,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false,
+  false,
+  true,
+  true,
+];
 // The correct answer would be 17.
 
 // NOT SOLVED YET-----------------------------------------
 // Solution:
-function countSheeps(arrayOfSheep) {
-  // TODO May the force be with you
+function countSheeps(sheep) {
+  let sheepCounter = 0;
+
+  for (let i = 0; i < sheep.length; i++) {
+    if (sheep[i] === true) {
+      sheepCounter++;
+    }
+
+    if (sheep[i] === false) {
+      sheepCounter + 0;
+    }
+  }
+  return sheepCounter;
 }
 
-// NOT SOLVED YET-----------------------------------------
+console.log(countSheeps(sheep));
