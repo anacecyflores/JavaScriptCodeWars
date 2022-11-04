@@ -37,7 +37,7 @@ function countSheeps(sheep) {
 
   for (let i = 0; i < sheep.length; i++) {
     if (sheep[i] === true) {
-      sheepCounter++;
+      sheepCounter + 1;
     }
 
     if (sheep[i] === false) {
