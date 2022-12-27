@@ -1,21 +1,13 @@
-// let n = 2;
-// let s = "";
+let bullets = 5;
+let dragons = 20;
 
-// function repeatStr(n, s) {
-//   n * s;
-//   return n * s;
-// }
-
-// console.log(repeatStr(n, s));
-
-function repeatStr(n, s) {
-  let word = "";
-
-  for (let i = 0; i < n; i++) {
-    word = word + s;
+function hero(bullets, dragons) {
+  if (bullets !== dragons * 2) return "true";
+  if (bullets > dragons * 2) return "true";
+  if (dragons > bullets * 2) return "false";
+  else {
+    bullets === dragons;
+    return "false";
   }
-
-  return word;
 }
-
-console.log(repeatStr(20, "chicago").toString());
+console.log("hero", bullets, dragons, hero(bullets, dragons));

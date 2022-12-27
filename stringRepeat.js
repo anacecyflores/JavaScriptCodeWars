@@ -1,5 +1,21 @@
-// Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
+// // let n = 2;
+// let s = "";
 
-// Examples (input -> output)
-// 6, "I"     -> "IIIIII"
-// 5, "Hello" -> "HelloHelloHelloHelloHello"
+// function repeatStr(n, s) {
+//   n * s;
+//   return n * s;
+// }
+
+// console.log(repeatStr(n, s));
+
+function repeatStr(n, s) {
+  let word = "";
+
+  for (let i = 0; i < n; i++) {
+    word = word + s;
+  }
+
+  return word;
+}
+
+console.log(repeatStr(20, "chicago").toString());
