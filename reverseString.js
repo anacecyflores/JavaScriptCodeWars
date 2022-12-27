@@ -7,10 +7,10 @@
 reverseString("hello");
 
 // practice #2
-// let word = "hello";
+let word = "hello";
 
-// function reverseWord(str) {
-//   str.reverseString(word);
-// }
+function reverseWord(str) {
+  str.reverseString(word);
+}
 
-// console.log(reverseWord(word));
+console.log(reverseWord(word).tostring);
