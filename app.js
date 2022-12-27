@@ -1,20 +1,30 @@
-function points(gamesArray) {
-  let totalPoints = 0;
+// // let m = (*)
+// // let a = (+)
+// // let s = (-)
+// // let d = (/)
 
-  for (let i = 0; i < gamesArray.length; i++) {
-    // sample value    "3:1"
-    const value = gamesArray[i];
+// let value1 = ''
+// let value2 = ''
+// let operationA = "+"
+// let operationS = "-"
+// let operationD = "/"
+// let operationM = "*"
 
-    const parts = value.split(":");
+// function basicOp(operation, value1, value2) {
+//  if operationA => { value1 + value2}
+//  } return basicOp()
+//  if operationS => { value1 - value2 }
+// if operationD => { value1 / value2 }
+// if operationM => { value1 * value2}
 
-    const x = parts[0];
-    const y = parts[1];
+// console.log (basicOp("+", 1, 2).tostring())
 
-    if (x > y) {
-      totalPoints = totalPoints + 3;
-    } else if (x === y) {
-      totalPoints += 1;
-    }
-  }
-  return totalPoints;
+function basicOp(operation, value1, value2) {
+  if (operation === "-") return value1 - value2;
+  if (operation === "/") return value1 / value2;
+  if (operation === "+") return value1 + value2;
+  if (operation === "*") return value1 * value2;
+  else return "not an operation";
 }
+
+console.log(basicOp("*", 5, 5));
