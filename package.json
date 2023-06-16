@@ -1,0 +1,23 @@
+{
+  "name": "javascriptcodewars",
+  "version": "1.0.0",
+  "description": "CodeWars JavaScript Challenges",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anacecyflores1/JavaScriptCodeWars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anacecyflores1/JavaScriptCodeWars/issues"
+  },
+  "homepage": "https://github.com/anacecyflores1/JavaScriptCodeWars#readme",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
